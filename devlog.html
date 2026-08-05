@@ -1,17 +1,82 @@
-<nav class="navbar">
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="devlog.html" class="active">Dev Log</a></li>
-  </ul>
-</nav>
-<p>&nbsp;</p>
-<p>PLEAD - Dev Log</p>
-<div class="top-banner">&nbsp;</div>
-<!-- Navigation Bar -->
-<div class="nav-links"><a href="index.html">&larr; Back to Main Page</a></div>
-<h1 style="text-align: center;">DEV LOG</h1>
-<div style="text-align: left; max-width: 800px; margin: 0 auto;"><hr />
-<h3><span style="color: #ffffff;">Entry #1 - Project Start</span></h3>
-<p><span style="color: #ffffff;"><em>Date: August 2026</em></span></p>
-<p><span style="color: #ffffff;">Welcome to the official PLEAD dev log! Work on the demo is officially underway.</span></p>
-<hr /></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PLEAD - Dev Log</title>
+  <style>
+    @font-face {
+      font-family: 'DTMMono';
+      src: url('DTM-Mono.otf') format('opentype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      margin: 0;
+      padding-top: 220px;
+      font-family: 'DTMMono', sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+    }
+
+    .top-banner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 200px;
+      z-index: 1000;
+      pointer-events: none;
+      background-image: url('https://file.garden/anJVrf11vnC3zRbm/plead_banner.png');
+      background-size: cover;
+      background-position: center;
+      -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 65%, rgba(0,0,0,0) 100%);
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 65%, rgba(0,0,0,0) 100%);
+    }
+
+    a {
+      color: #3b82f6;
+    }
+
+    .nav-links {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .nav-links a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-banner"></div>
+
+  <main style="padding: 20px;">
+    <!-- Navigation Bar -->
+    <div class="nav-links">
+      <a href="index.html">← Back to Main Page</a>
+    </div>
+
+    <h1 style="text-align: center;">DEV LOG</h1>
+
+    <div style="text-align: left; max-width: 800px; margin: 0 auto;">
+      <hr />
+      
+      <h3>Entry #1 - Project Start</h3>
+      <p><em>Date: August 2026</em></p>
+      <p>Welcome to the official PLEAD dev log! Work on the demo is officially underway.</p>
+
+      <hr />
+    </div>
+  </main>
+
+</body>
+</html>
