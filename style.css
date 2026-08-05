@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'DTMMono';
+  src: url('DTM-Mono.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding-top: 220px;
+  font-family: 'DTMMono', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.top-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  z-index: 1000;
+  pointer-events: none;
+  background-image: url('https://file.garden/anJVrf11vnC3zRbm/plead_banner.png');
+  background-size: cover;
+  background-position: center;
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 65%, rgba(0,0,0,0) 100%);
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 65%, rgba(0,0,0,0) 100%);
+}
+
+.navbar {
+  background-color: #1a1a1a;
+  border-bottom: 2px solid #333;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.navbar a {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.navbar a:hover, .navbar a.active {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+a {
+  color: #3b82f6;
+}
