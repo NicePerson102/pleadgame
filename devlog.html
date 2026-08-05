@@ -40,27 +40,22 @@
       border-bottom: 2px solid #333;
       padding: 10px 0;
       margin-bottom: 20px;
-    }
-
-    .navbar ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
+      text-align: center;
     }
 
     .navbar a {
-      color: #ffffff;
+      color: #3b82f6;
       text-decoration: none;
       font-weight: bold;
       padding: 8px 16px;
-      border-radius: 4px;
+      margin: 0 5px;
+      display: inline-block;
     }
 
     .navbar a:hover, .navbar a.active {
       background-color: #3b82f6;
+      color: #ffffff;
+      border-radius: 4px;
     }
 
     a {
@@ -75,10 +70,8 @@
   <main style="padding: 20px;">
     
     <nav class="navbar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="devlog.html" class="active">Dev Log</a></li>
-      </ul>
+      <a href="index.html">Home</a>
+      <a href="devlog.html" class="active">Dev Log</a>
     </nav>
 
     <h1 style="text-align: center;">DEV LOG</h1>
